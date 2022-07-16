@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+
+/* App Component */
+
+.biggest-coin-container {
+    margin-top: 40px;
+}
+
+.coin-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.info-crypto {
+    width: 250px;
+}
+
+.info-symbol {
+    width: 175px;
+}
+
+.info-LTP {
+    width: 145px;
+}
+
+.info-vol {
+    width: 170px;
+}
+
+.info-low {
+    width: 135px;
+}
+
+.info-high {
+    width: 105px;
+}
+
+.info-rank {
+    width: 85px;
+}
+
+.info-price-change {
+    width: 200px;
+}
+
+.main-coin-container {
+    border: 1px solid #d7d7d7;
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 5px #888888;
+    background-color: white;
+}
+
+.coin-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.coin-search div {
+    position: relative;
+}
+
+.coin-search h3 {
+    font-size: 5rem;
+    font-weight: bolder;
+    font-family: 'The Nautigal', cursive;
+    margin-bottom: 10px;
+}
+
+.coin-search i {
+    position: absolute;
+    top: 18px;
+    left: 8px
+}
+
+.coin-search input {
+    padding: 0.5rem 1.8rem;
+    border-radius: 10px;
+    border: none;
+    border-color: #d7d7d7;
+    margin-top: 10px;
+    background-color: #e7e6e6;
+}
+
+.coin-search input:focus {
+    outline: none;
+}
+
+
+/* Coin Component */
+
+.coin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.coin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid #d7d7d7; */
+}
+
+.coin-img img {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+.coin-name h1 {
+    width: 220px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.coin-symbol p {
+    width: 140px;
+    text-transform: uppercase;
+}
+
+.coin-price p {
+    width: 140px;
+}
+
+.coin-volume p {
+    width: 180px;
+}
+
+.coin-low p {
+    width: 140px;
+}
+
+.coin-high p {
+    width: 140px;
+}
+
+.coin-cap p {
+    width: 57px;
+}
+
+.coin-price-change p {
+    width: 120px;
+}
+
+.coin-red {
+    color: #ff0000;
+}
+
+.coin-green {
+    color: rgb(0, 212, 0);
+}
