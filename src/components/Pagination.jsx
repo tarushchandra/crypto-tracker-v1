@@ -11,9 +11,7 @@ export const Pagination = ({ totalCoins, coinsPerPage, setCurrentPage }) => {
     <div className="page-number-container">
       {pageNumbers.map((number) => (
         <li key={number} className="page-number-item">
-          <a onClick={() => setCurrentPage(number)} href="!#">
-            {number}
-          </a>
+          <span onClick={() => setCurrentPage(number)}>{number}</span>
         </li>
       ))}
     </div>
