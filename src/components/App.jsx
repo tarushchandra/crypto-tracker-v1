@@ -10,7 +10,7 @@ export function App() {
   const [searchText, setSearchText] = useState("");
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [coinsPerPage, setCoinsPerPage] = useState(10);
+  const [coinsPerPage] = useState(10);
 
   useEffect(() => {
     setLoading(true);
