@@ -191,16 +191,20 @@ body {
     align-items: center;
 }
 
-.page-number-item span {
+
+.page-number-item a {
     margin-left: 10px;
     margin-right: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
 }
 
-.page-number-item span:hover {
+.page-number-item a:hover {
     cursor: pointer;
 }
 
-.page-number-item span:focus{
+.page-number-item a:focus{
     width: 30px;
     height: 30px;
     border-radius: 50%;
