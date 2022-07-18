@@ -38,7 +38,14 @@ export function App() {
       <Search setSearchText={setSearchText} />
       <div className="biggest-coin-container">
         <CoinInfo />
-        <Coins totalCoins={currentCoins} loading={loading} />
+        <Coins
+          totalCoins={currentCoins}
+          loading={loading}
+          filteredCoinsLength={filteredCoins.length}
+          indexOfLastCoin={indexOfLastCoin}
+          currentPage={currentPage}
+          coinsPerPage={coinsPerPage}
+        />
       </div>
       <Pagination
         totalCoins={coins.length}

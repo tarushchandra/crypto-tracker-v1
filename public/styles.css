@@ -67,6 +67,8 @@ body {
     background-color: white;
 }
 
+/* Search Component */
+ 
 .coin-search {
     display: flex;
     flex-direction: column;
@@ -106,20 +108,26 @@ body {
 }
 
 
+/* Coins Component */
+
+.coin-not-available {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+hr {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Coin Component */
 
 .coin-container {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.coin-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 50px;
-    border-bottom: 1px solid #d7d7d7;
+    padding: 10px;
 }
 
 .coin {
@@ -127,7 +135,6 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* border-bottom: 1px solid #d7d7d7; */
 }
 
 .coin-img img {
