@@ -12,8 +12,11 @@ body {
 
 /* App Component */
 
-.biggest-coin-container {
+.biggest-coin-container table {
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .coin-info {
@@ -26,35 +29,35 @@ body {
 }
 
 .info-crypto {
-    width: 250px;
+    width: 19%;
 }
 
 .info-symbol {
-    width: 175px;
+    width: 11%;
 }
 
 .info-LTP {
-    width: 145px;
+    width: 10%;
 }
 
 .info-vol {
-    width: 170px;
+    width: 16%;
 }
 
 .info-low {
-    width: 135px;
+    width: 8%;
 }
 
 .info-high {
-    width: 105px;
+    width: 12%;
 }
 
 .info-rank {
-    width: 85px;
+    width: 1%;
 }
 
 .info-price-change {
-    width: 200px;
+    width: 20%;
 }
 
 .main-coin-container {
@@ -65,6 +68,7 @@ body {
     margin-bottom: 30px;
     box-shadow: 1px 1px 5px #888888;
     background-color: white;
+    
 }
 
 /* Search Component */
@@ -220,6 +224,5 @@ hr {
     align-items: center;
     justify-content: center;
 }
-
 
 
